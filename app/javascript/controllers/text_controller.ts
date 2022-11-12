@@ -6,11 +6,11 @@ export default class TextController extends Controller {
 
   static values = {
     status: Boolean,
-    on: { type: String, default: "On"},
-    off: { type: String, default: "Off"},
+    on: { type: String, default: "On" },
+    off: { type: String, default: "Off" },
   }
   offValue: string
-  onValue: string 
+  onValue: string
   statusValue: boolean
 
   toggle(): void {

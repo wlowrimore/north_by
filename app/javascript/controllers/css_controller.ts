@@ -1,4 +1,4 @@
-import { Controller } from "@hotwired/stimulus";
+import { Controller } from "@hotwired/stimulus"
 
 export default class CssController extends Controller {
   static classes = ["css"]
